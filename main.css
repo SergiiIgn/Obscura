@@ -526,7 +526,7 @@ button{
     background-color: #1a1a1a;
     max-width: 700px;
     margin: 0 370px 0 370px;
-    min-width: 440px;
+    min-width: 330px;
 }
 
 .portfolio__buttons{
@@ -537,7 +537,7 @@ button{
 
 @media screen and (max-width:550px) {
     .footer{
-        padding: 101pz 0 46px;
+        padding: 101px 0 46px;
     }
 
     .gallery__item{
@@ -631,12 +631,38 @@ button{
         padding: 0 45px;
     }
 
+    .portfolio{
+        padding: 41px 0 90px;
+    }
+
     .portfolio__buttons{
         padding: 0 45px;
     }
 
+    .portfolio__text{
+        padding: 0 51px;
+    }
+
     .portfolio__title{
         font-size: 38px;
+    }
+
+    .portfolio__list{
+        margin: 0 0 48px;
+    }
+
+    .portfolio__item{
+        width: 440px;
+        margin: 0 51px;
+        justify-content: center;
+    }
+
+    .portfolio__image{
+        width: 440px;
+    }
+
+    .portfolio__buttons{
+        margin-top: 40px;
     }
 
     .about-me__section-title{
