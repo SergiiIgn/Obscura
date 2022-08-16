@@ -29,7 +29,7 @@ $(".button--portfolio-prev").click((e) => {
     portfolio.goToPrevSlide();
 });
 
-$(".button--portfolio-next")/click((e) => {
+$(".button--portfolio-next").click((e) => {
     e.preventDefault();
     portfolio.goToNextSlide();
 });
